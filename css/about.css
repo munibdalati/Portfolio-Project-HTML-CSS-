@@ -1,0 +1,165 @@
+.about{
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+.top-container {
+    background-color: #e0ebe8;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+    margin-right: 2%;
+    padding-top: 1%;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+}
+
+.navtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-cloud {
+    width: 15%;
+
+}
+.bottom-cloud {
+    width: 15%;
+}
+
+
+.name {
+    font-size: 5rem;
+    font-family: 'Sacramento', serif;
+    color: #66BFBF;
+    text-align: center;
+    grid-column: 2 / 4;
+    grid-row: 1/2;
+}
+.munibimg1{
+    width: 10%;
+}
+
+.body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10%;
+
+}
+
+
+.introduction{
+    width: 40%;
+    background-color: white;
+    border-radius: 5%;
+    text-align: left;
+    line-height: 200%;
+    padding: 2%;
+}
+
+.about-title{
+    margin-left: 5%;
+
+}
+.munib-formal{
+    width: 40%;
+    border-radius: 5%;
+    margin-bottom: 5%;
+    
+
+}
+h2 {
+    font-family: 'Montserrat', serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+
+
+.munibimg {
+  border-radius: 100%;
+}
+
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 3% 0 1% 0;
+}
+
+a {
+    color: #11999E;
+     font-family: 'Montserrat', serif;
+     text-decoration: none;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 1rem;
+    padding: 1% 0;
+}
+.fa-brands{
+    margin: 0% 2%; 
+}
+
+@media all and (max-width:780px){
+    
+    .name{
+        font-size: 2.0rem;
+        margin: 0 5%;
+
+    }
+    .navtitle{
+        margin: 7%;
+    
+    }
+    .top-cloud {
+        width: 20%;
+
+    }
+    .bottom-cloud {
+        width: 20%;
+
+    }
+    .munibimg1{
+        width: 15%;
+    }
+    nav{
+        font-size: 0.7rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    .body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .introduction{
+        width: 80%
+    }
+    
+    .munib-formal{
+        width: 50%;
+    
+    }
+
+
+    
+}

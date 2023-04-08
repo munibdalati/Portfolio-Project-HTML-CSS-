@@ -1,0 +1,108 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+.home{
+
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+    margin-right: 2%;
+    padding-top: 1%;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+}
+.top-cloud {
+    padding: 2% 0% 0% 50%;
+}
+.bottom-cloud {
+    padding: 0% 50% 2% 5%;
+}
+
+.name {
+    font-size: 5.625rem;
+    font-family: 'Sacramento', serif;
+    color: #66BFBF;
+    text-align: center;
+}
+.munibimg1{
+    width: 10%;
+}
+.career{
+    font-family: 'Montserrat', serif;
+    font-size: 1.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 3% 0 1% 0;
+}
+
+
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 1rem;
+    padding: 1% 0;
+}
+
+.fa-brands{
+    margin: 0% 2%; 
+}
+
+
+@media all and (max-width:780px){
+    .mountain{
+        width: 100%;
+    }
+    .name{
+        font-size: 2rem;
+        margin: 0 5%;
+        margin-bottom: 10%;
+    }
+    .top-cloud {
+        width: 20%;
+        margin-bottom: 10%;
+    }
+    .bottom-cloud {
+        width: 20%;
+        margin-bottom: 10%;
+    }
+    .munibimg1{
+        width: 15%;
+    }
+    nav{
+        font-size: 0.7rem;
+        display: flex;
+        justify-content: space-around;
+
+        margin-bottom: 10%;
+    }
+    .career{
+        margin: 0 5%;
+        font-size: 1rem;
+        margin-bottom: 10%;
+    }
+    
+}
