@@ -42,16 +42,11 @@ nav{
     font-family: 'Sacramento', serif;
     color: #66BFBF;
     text-align: center;
-    grid-column: 2 / 4;
-    grid-row: 1/2;
+
 }
 .munibimg1{
     width: 10%;
 }
-
-
-
-
 
 
 h2 {
@@ -72,13 +67,9 @@ p {
 }
 
 
-
-
-
-
 .project-row {
     width: 70%;
-    margin: 10% auto 10% auto;
+    margin: 10% auto 13% auto;
     text-align: left;
     line-height: 2;
 }
@@ -93,7 +84,7 @@ p {
 }
 
 .right-img {
-    width: 25%;
+    width: 45%;
     float:right;
     margin-left: 5%;
 }

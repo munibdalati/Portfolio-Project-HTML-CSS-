@@ -4,6 +4,8 @@ body {
     text-align: center;
     font-family: 'Merriweather', serif;
     color: #40514E;
+    
+    
 }
 
 .home{
@@ -104,5 +106,7 @@ a:hover {
         font-size: 1rem;
         margin-bottom: 10%;
     }
+    
+
     
 }
