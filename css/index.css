@@ -17,13 +17,18 @@ nav{
     display: flex;
     justify-content: flex-end;
     gap: 2%;
-    margin-right: 2%;
     padding-top: 1%;
     font-family: 'Montserrat', serif;
     font-weight: bold;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    padding-bottom: 1%;
+    width: 97%;
 }
 .top-cloud {
-    padding: 2% 0% 0% 50%;
+    padding: 4% 0% 0% 50%;
 }
 .bottom-cloud {
     padding: 0% 50% 2% 5%;
